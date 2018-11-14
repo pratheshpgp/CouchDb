@@ -18,7 +18,7 @@ namespace CouchDb
                  client.Documents.PutAsync("1", "{\"name\":\"Daniel\"}");
 
                 //PUT for updates
-                 client.Documents.PutAsync("1", "docRevision", "{\"name\":\"Daniel Wertheim\"}");
+                 client.Documents.PutAsync("1", "Prathesh", "{\"name\":\"Daniel Wertheim\"}");
 
                 //PUT for updates with _rev in JSON
                  client.Documents.PutAsync("1", "{\"_rev\": \"docRevision\", \"name\":\"Daniel Wertheim\"}");
